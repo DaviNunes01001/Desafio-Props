@@ -1,0 +1,42 @@
+@import url("./index.css");
+
+.titulo-pag h1 {
+  margin-top: 20px;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: #2698b5;
+  background: linear-gradient(
+    90deg,
+    rgba(38, 152, 181, 1) 0%,
+    rgba(103, 17, 184, 1) 72%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo-pag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(55, 54, 56);
+  color: rgb(107, 12, 196);
+}
+.card-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .titulo-pag h1 {
+    font-size: 20px;
+  }
+}

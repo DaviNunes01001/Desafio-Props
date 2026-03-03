@@ -1,0 +1,8 @@
+@import url("../../../index.css");
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(49, 49, 49);
+    height: 120px;
+    width: 100%;
+}
